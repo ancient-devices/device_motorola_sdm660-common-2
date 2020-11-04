@@ -4,3 +4,6 @@ type vendor_dolby_loglevel_prop, property_type;
 type vendor_aov_prop, property_type;
 type power_prop, property_type;
 type vendor_qdma_prop, property_type;
+type hwrev_prop, property_type;
+type vendor_power_prop, property_type;
+
