@@ -57,3 +57,6 @@ ro.product.nopefacturer u:object_r:camera_prop:s0
 ro.build.motfactory u:object_r:vendor_radio_prop:s0
 ro.build.vendorprefix u:object_r:vendor_radio_prop:s0
 ro.fsg-id u:object_r:vendor_radio_prop:s0
+
+# Power
+vendor.powerhal.                        u:object_r:vendor_power_prop:s0
