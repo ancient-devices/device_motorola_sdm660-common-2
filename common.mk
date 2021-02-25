@@ -320,7 +320,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.moto_sdm660-libperfmgr
+    android.hardware.power-service.moto_sdm660-libperfmgr
 
 # Powerhint
 ifeq ($(EAS_POWERHINT_VARIANT),sdm630)
