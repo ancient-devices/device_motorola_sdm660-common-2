@@ -446,9 +446,12 @@
          from DOZE to ON, in millis. -->
     <integer name="config_wakeUpDelayDoze">32</integer>
  
+    <!-- Whether device ignores the RSSNR signal implementation -->
+     <bool name="config_ignoreRssnrSignalLevel">true</bool>
+
     <!-- Paths to the libraries that contain device specific key handlers -->
     <string-array name="config_deviceKeyHandlerLibs" translatable="false">
-        <item>/system/priv-app/MotoActions/MotoActions.apk</item>
+        <item>/system/system_ext/priv-app/MotoActions/MotoActions.apk</item>
     </string-array>
 
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
