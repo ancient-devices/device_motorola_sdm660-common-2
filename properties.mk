@@ -139,6 +139,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/platform/soc/c0c4000.sdhci/by-name/frp
 
+# LMKiller
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lmk.use_psi=false \
+    ro.lmk.low=700 \
+    ro.lmk.medium=30 \
+    ro.lmk.kill_timeout_ms=15 \
+    ro.lmk.use_minfree_levels=true \
+    ro.lmk.enhance_batch_kill=true
+
 # Netflix
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.netflix.bsp_rev=Q660-13149-1
