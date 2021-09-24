@@ -121,6 +121,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dev.pm.dyn_samplingrate=1 \
     ro.opengles.version=196610 \
     ro.qualcomm.cabl=0 \
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     debug.cpurend.vsync=false \
     debug.performance.tuning=1 \
     debug.sf.enable_egl_image_tracker=1 \
